@@ -528,7 +528,7 @@ class CalendarStrip extends Component {
 
   renderDay(props) {
     return (
-      <CalendarDay {...props} />
+     <CalendarDay {...props} disableWeekDays={this.props.disableWeekDays} />
     );
   }
 
